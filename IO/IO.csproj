@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>JxF.IO</AssemblyName>
+    <RootNamespace>JxF.IO</RootNamespace>
+    
+    <!-- Nuget Info -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>JxF.IO</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>josiasgr</Authors>
+    <Company>josiasgr</Company>
+    <Product>JxF.IO</Product>    
+    <Description>Simple Helper for Common IO Operations</Description>
+    <Copyright>Copyright (c) 2020 josiasgr</Copyright>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/josiasgr/JxF</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/josiasgr/JxF</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>System.IO, JxF.IO</PackageTags>
+    <!-- Nuget Info -->
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
